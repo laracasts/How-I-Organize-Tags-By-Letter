@@ -1,0 +1,26 @@
+.has-columns {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-rule: 1px solid #e3e3e3;
+  -moz-column-rule: 1px solid #e3e3e3;
+  column-rule: 1px solid #e3e3e3;
+  -webkit-column-gap: 70px;
+  -moz-column-gap: 70px;
+  column-gap: 70px; }
+
+.letter-group {
+  margin-bottom: 4em;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid; }
+  .letter-group:last-child {
+    margin-bottom: 0; }
+
+.letter-group .letter {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0; }
+
+/*# sourceMappingURL=app.css.map */
